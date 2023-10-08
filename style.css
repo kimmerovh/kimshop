@@ -1,0 +1,193 @@
+body {
+    background: rgb(0,17,36);
+    background: linear-gradient(90deg, rgba(0,17,36,1) 0%, rgba(9,104,121,1) 36%); 
+}
+
+.logo1 {
+    border-radius: 50px;
+    width: 200px;
+    text-decoration: none;
+    border: 2px solid #000000; /* Граничная линия */
+    overflow: hidden; /* Обрезать изображение, если оно превышает размер контейнера */
+    margin-left: px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+    position: relative;
+}
+
+.logo1 img{
+    width: 100%; /* Чтобы изображение занимало всю доступную ширину контейнера */
+    height: auto; /* Сохранить соотношение сторон изображения */
+}
+
+.logo1 img{
+    transition: transform 0.3s;
+}
+
+.logo1:hover img{
+    transform: scale(1.2);
+}
+
+.vkava{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Изначально текст скрыт */
+    transition: opacity 0.3s; /* Анимация появления */
+    font-size: 50px;
+    font-family: Kanit;
+    color: aliceblue;
+    text-shadow: 2px 3px 4px black;
+}
+
+.logo1:hover .vkava{
+    opacity: 1;
+}
+
+@font-face {
+    font-family: Kanit;
+    src: url(fonts/Kanit-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: KanitLow;
+    src: url(fonts/Kanit-Medium.ttf);
+}
+
+.text-shop{
+    font-family: Kanit;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: aliceblue;
+    text-shadow: 2px 3px 4px rgb(32, 32, 32);
+}
+
+
+.products{
+    text-align: center;
+    justify-content: center;
+    margin-top: -300px;
+    font-size: 100px;
+    font-family: KanitLow;
+    color: aliceblue;
+    text-shadow: 3px 4px 5px black;
+}
+
+.dragon-rw{
+    width: 400px; /* Ширина контейнера */
+    height: 300px; /* Высота контейнера */
+    border: 5px solid #000000; /* Граничная линия */
+    overflow: hidden; /* Обрезать изображение, если оно превышает размер контейнера */
+    margin-left: 450px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+    position: relative;
+}
+
+.dragon-rw img {
+    width: 100%; /* Чтобы изображение занимало всю доступную ширину контейнера */
+    height: auto; /* Сохранить соотношение сторон изображения */
+}
+
+.dragon-rw img{
+    transition: transform 0.3s;
+}
+
+.dragon-rw:hover img{
+    transform: scale(1.2);
+}
+
+.dragon-rw-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Изначально текст скрыт */
+    transition: opacity 0.3s; /* Анимация появления */
+    font-size: 50px;
+    font-family: Kanit;
+    color: aliceblue;
+    text-shadow: 2px 3px 4px black;
+}
+
+.dragon-rw:hover .dragon-rw-text{
+    opacity: 1;
+}
+
+.rw{
+    font-family: KanitLow;
+    margin-left: 770px;
+}
+
+.strel{
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.dragon-cost{
+    font-family: KanitLow;
+    color: aliceblue;
+    text-shadow: 2px 3px 4px black;
+    margin-left: 600px;
+}
+
+.imp-rw{
+    width: 400px; /* Ширина контейнера */
+    height: 300px; /* Высота контейнера */
+    border: 5px solid #000000; /* Граничная линия */
+    overflow: hidden; /* Обрезать изображение, если оно превышает размер контейнера */
+    margin-left: 450px;
+    margin-right: -20px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+    position: relative;
+    margin-top: -600px;
+    margin-left: 900px;
+    z-index: 1;
+}
+
+.imp-rw img {
+    width: 100%; /* Чтобы изображение занимало всю доступную ширину контейнера */
+    height: auto; /* Сохранить соотношение сторон изображения */
+}
+
+.imp-rw img{
+    transition: transform 0.3s;
+}
+
+.imp-rw:hover img{
+    transform: scale(1.2);
+}
+
+.imp-rw-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Изначально текст скрыт */
+    transition: opacity 0.3s; /* Анимация появления */
+    font-size: 50px;
+    font-family: Kanit;
+    color: aliceblue;
+    text-shadow: 2px 3px 4px black;
+}
+
+.imp-rw:hover .imp-rw-text{
+    opacity: 1;
+}
+
+.imp-cost{
+    font-family: KanitLow;
+    color: aliceblue;
+    text-shadow: 2px 3px 4px black;
+    margin-left: 1050px;
+}
+
+.vkava1{
+    text-decoration: none;
+}
+
+
+
